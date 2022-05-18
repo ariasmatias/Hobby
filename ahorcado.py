@@ -14,6 +14,7 @@ while intentos > 0:
         if letra == word[i]:
             aciertos[i]=letra
             encontrado=True
+            print(aciertos)
 
     if not encontrado:
             intentos=intentos -1
